@@ -1,4 +1,4 @@
-# cf_SST
+# Cloudiness and Heat-Stress on coral bleaching
 
 Repository with the python code and CLimate Data Operators (CDO) regarding to  Cloudiness and Heat-Stress on coral bleaching paper
 
