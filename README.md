@@ -1,6 +1,6 @@
 # cf_SST
-Repository of coral bleaching based on cloud cover and SST 
 
-The file "cloud_fraction_xarray" is working, the aim is to retrieve a single value from especific sites on especific date based on a .CSV file "CBdbV2". 
+Repository with the python code and CLimate Data Operators (CDO) regarding to  Cloudiness and Heat-Stress on coral bleaching paper
 
-NOTE: NetCDF files for cloud_fraction are extremely heavy (7 GB), so I run this code in an external HD. But this code works fine with any NetCDF file.   
+Files are generated using CDO, read the "README_CDO_code", then each python notebook is used to compute a metric or variable
+
