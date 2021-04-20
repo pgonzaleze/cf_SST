@@ -1,16 +1,9 @@
-Author: Pedro González-Espinosa
+Author: Pedro GonzÃ¡lez-Espinosa
 The University of British Columbia
 Date:Aug-28th-2019
 Last edit: Jan-26th-2021
 
 Climate Data Operators (CDO) used to generate files for Gonzalez-Espinosa and Donner Cloudiness and Heat-Stress on coral bleaching
-
--Download Ubuntu version 16.04 LTS for Windows
--create an account
--open UBUNTU for Windows
--look for the path where CDO.exe is binned 
-
-## Ensure that the netCDF files are placed in the same directory (opened in UBUNTU) where "CDO.exe" is located
 
 ## Syntaxis:
 <infile.nc>: indicates the file where the data is taken
@@ -37,7 +30,7 @@ cdo sub monmean.nc ymonmean.nc <outfile.nc>
 
 -A running mean is calculation to analyze data points by creating a series of averages of different subsets of the full data set.
 The time of outfile is determined by the time in the middle of all contributing timesteps of infile. 
-This can be change with the CDO option –timestat_date <first|middle|last>:
+This can be change with the CDO option â€“timestat_date <first|middle|last>:
 export CDO_TIMESTAT_DATE=last
 -To compute the running mean over 7 timesteps (so every week) use: 
 cdo runmean,7 <infile.nc> <outfile.nc>
