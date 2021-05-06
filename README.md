@@ -1,10 +1,14 @@
 # Cloudiness and Heat-Stress on coral bleaching
 
-Repository with the python code and Climate Data Operators (CDO) regarding to  Cloudiness and Heat-Stress on coral bleaching paper
+* Repository with the python code and Climate Data Operators (CDO) regarding to  Cloudiness and Heat-Stress on coral bleaching paper
 
-NetCDF files are edited using CDO; read the "README_CDO_code". 
+The coral bleaching database ('CBdbV2') is available at https://www.simondonner.com/bleachingdatabase
 
-Each python notebook is used to compute and extract each metric or variable.
+NetCDF files are edited using CDO
+
+read the "README_CDO_code" for metrics calculations
+
+Each python notebook is used to compute more metrics and/or extract each metric or variable per bleaching report.
 
 R scripts are used to perform mixed-effects models 
 
