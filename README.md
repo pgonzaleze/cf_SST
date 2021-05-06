@@ -6,7 +6,7 @@ The coral bleaching database ('CBdbV2') is available at https://www.simondonner.
 
 NetCDF files are edited using CDO
 
-read the "README_CDO_code" for metrics calculations
+Read the "README_CDO_code" for metrics calculations
 
 Each python notebook is used to compute more metrics and/or extract each metric or variable per bleaching report.
 
