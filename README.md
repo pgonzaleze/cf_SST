@@ -2,5 +2,9 @@
 
 Repository with the python code and Climate Data Operators (CDO) regarding to  Cloudiness and Heat-Stress on coral bleaching paper
 
-Files are generated using CDO, read the "README_CDO_code", then each python notebook is used to compute a metric or variable
+NetCDF files are edited using CDO; read the "README_CDO_code". 
+
+Each python notebook is used to compute and extract each metric or variable.
+
+R scripts are used to perform mixed-effects models 
 
