@@ -28,7 +28,7 @@ cdo ymonmean <infile.nc> <outfile.nc>
 -The monthly anomaly relative to the long term annual cycle:
 cdo sub monmean.nc ymonmean.nc <outfile.nc>
 
--A running mean is calculation to analyze data points by creating a series of averages of different subsets of the full data set.
+-A running mean analyze data points by creating a series of averages of different subsets of the full data set.
 The time of outfile is determined by the time in the middle of all contributing timesteps of infile. 
 This can be change with the CDO option –timestat_date <first|middle|last>:
 export CDO_TIMESTAT_DATE=last
